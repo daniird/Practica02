@@ -1,0 +1,147 @@
+<!doctype html> 
+<html lang="es">
+    <head>
+        <title>salidas</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/Estilos.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+
+    <body class="fondo">
+        <ul class="nav nav-pills justify-content-center">
+            <li class="menu" class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="menu" class="nav-item">
+                <a class="nav-link" href="opciones.html">Opciones</a>
+            </li>
+            <li class="menu" class="nav-item">
+                <a class="nav-link active" href="salidas.html">Salidas</a>
+            </li>
+        </ul>
+    
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary" type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                Infografía
+            </button>
+        </div>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+        
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                    Infografía
+                </h5>
+        
+                <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Cerrar">
+                </button>
+            </div>
+        
+            <div class="offcanvas-body">
+                <p>Gradopedia:</p>
+                <a class="d-block" href="https://gradopedia.es/grados/inteligencia-artificial/udc-a-coruna">Inteligencia artificial</a>
+                <a class="d-block" href="https://gradopedia.es/grados/ingenieria-informatica/udc-a-coruna">Ingeniería informática</a>
+                <a class="d-block" href="https://gradopedia.es/grados/ciencia-e-ingenieria-de-datos/udc-a-coruna">   Ingeniería de datos</a>
+                <p>UDC</p>
+                <a class="d-block" href="https://www.udc.gal/es/futuros_estudantes/portas_abertas-00001/graos/int-artificial/">Inteligencia artificial</a>
+                <a class="d-block" href="https://www.udc.gal/es/centros_departamentos_servizos/centros/centro/?codigo=614"> Ingeniería informática</a>
+                <a class="d-block" href="https://estudos.udc.es/es/study/detail/614g02v01">Ingeniería de datos</a>
+                <p>IA</p>
+                <a class="d-block" href="https://chatgpt.com">ChatGPT</a>
+                <a class="d-block" href="https://gemini.google.com">Gemini</a>
+            </div>
+          </div>
+
+    <ul class="nav nav-tabs" id="miMenu">
+    <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#contenido1">
+            Inteligencia Artificial
+        </button>
+    </li>
+
+    <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contenido2">
+            Ingeniería Informática
+        </button>
+    </li>
+
+    <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contenido3">
+            Ciencia e Ingeniería de Datos
+        </button>
+    </li>
+</ul>
+
+<div class="tab-content">
+
+    <div class="tab-pane fade show active p-3" id="contenido1">
+        <h3>Inteligencia Artificial</h3>
+        <ul class="lista3">
+            <li>Ingeniero/a de Inteligencia Artificial.</li>
+            <li>Especialista en aprendizaje automático (Machine Learning).</li>
+            <li>Desarrollador/a de sistemas inteligentes.</li>
+            <li>Ingeniero/a de robótica.</li>
+            <li>Especialista en visión artificial.</li>
+            <li>Investigador/a en Inteligencia Artificial.</li>
+        </ul>
+    </div>
+
+    <div class="tab-pane fade p-3" id="contenido2">
+        <h3>Ingeniería Informática</h3>
+        <ul class="lista3">
+            <li>Desarrollador/a de software y aplicaciones.</li>
+            <li>Ingeniero/a de sistemas informáticos.</li>
+            <li>Administrador/a de redes y sistemas.</li>
+            <li>Analista de sistemas.</li>
+            <li>Especialista en ciberseguridad.</li>
+            <li>Consultor/a tecnológico/a.</li>
+        </ul>
+    </div>
+
+    <div class="tab-pane fade p-3" id="contenido3">
+        <h3>Ciencia e Ingeniería de Datos</h3>
+        <ul class="lista3">
+            <li>Científico/a de datos (Data Scientist).</li>
+            <li>Ingeniero/a de datos (Data Engineer).</li>
+            <li>Analista de datos (Data Analyst).</li>
+            <li>Especialista en Big Data.</li>
+            <li>Analista de inteligencia de negocio (Business Intelligence).</li>
+            <li>Especialista en aprendizaje automático.</li>
+        </ul>
+    </div>
+     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="./Imágenes/IA.jpg" class="imagencarrusel" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <img src="./Imágenes/II.jpg" class="imagencarrusel" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <img src="./Imágenes/ID.jpg" class="imagencarrusel" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+
+    <footer class="footer">
+        <p>Práctica 01 TIC II    Salesianos Coruña</p>
+    </footer>

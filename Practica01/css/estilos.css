@@ -1,0 +1,133 @@
+.menu{
+    margin-bottom: 8px;
+}
+
+.contenedor-titulo{
+    text-align: center;
+}
+
+.titulo{
+    display: inline-block;
+    border:8px solid rgb(129, 76, 45);
+    color:rgb(0, 119, 255) ;
+}
+
+.subtitulo{
+    color:rgb(0, 119, 255) ;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.subtitulo2{
+    color:rgb(0, 119, 255) ;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.parrafos{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    text-align: right;
+}
+.fondo{
+    background-image: url(./Imagenes_css/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+.lista {
+    list-style: none;
+    padding-left: 1px;
+}
+
+.lista li {
+    list-style-type: none ;
+}
+
+.lista li:not(:last-child) {
+    border-bottom: 2px solid rgb(90, 154, 226);
+    padding: 8px;
+}
+
+.lista2 {
+    list-style: decimal;
+}
+
+.lista2 li {
+    list-style-type: decimal ;
+}
+
+.lista2 li:not(:last-child) {
+    padding: 8px;
+}
+
+.lista3 {
+    list-style: decimal;
+    font-size: large;
+}
+
+.lista3 li {
+    list-style-type: decimal;
+    font-size: large;
+}
+
+.lista3 li:not(:last-child) {
+    padding: 8px;
+    font-size: large;
+}
+
+.imagencarrusel{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    object-fit: cover;
+    display: block;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 100%;
+    }
+}
