@@ -9,46 +9,66 @@
     </head>
 
     <body>
-        <div class="d-flex justify-content-between align-items-center">
-            <h1 class="titulo">PROYECTOS</h1>
-            <button class="btn btn-primary" type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight">
-                Ayuda
-            </button>
-        </div>
-        
-        <div class="offcanvas offcanvas-end" tabindex="-1"
-            id="offcanvasRight"
-            aria-labelledby="offcanvasRightLabel">
-        
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+
+            <div class="cabecera">
+
+                <h1 class="titulo">PROYECTOS</h1>
+            
+                <button class="btn btn-primary boton-ayuda" type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
                     Ayuda
-                </h5>
-        
-                <button type="button"
-                    class="btn-close"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Cerrar">
                 </button>
+            
             </div>
+                
+            <div class="offcanvas offcanvas-end" tabindex="-1"
+            id="offcanvasRight"
+            role="dialog"
+            aria-labelledby="offcanvasRightLabel">
+                
+                    <div class="offcanvas-header">
+                        <h2 class="offcanvas-title" id="offcanvasRightLabel">
+                            Ayuda
+                        </h2>
+                
+                        <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Cerrar">
+                        </button>
+                    </div>
+                
+                    <div class="offcanvas-body">
+                        <p>Correo electrónico de contacto:</p>
+                        <p>SSG3017@gmail.com</p>
+                    </div>
+                
+                </div>
+
+                <div class="d-flex align-items-center gap-4">
+
+                    <p>
+                        Soy Daniel Reboredo Díaz, estudiante de 2.º de Bachillerato en Salesianos Coruña.
+                        Me considero una persona responsable, organizada y comprometida con mis objetivos.
+                        Tengo ganas de seguir aprendiendo, adquirir nuevas experiencias y desarrollar mis
+                        habilidades tanto a nivel personal como profesional. Destaco por mi capacidad de
+                        resiliencia, mi disposición para trabajar en equipo y mi interés por afrontar nuevos retos.
+                    </p>
+
+                    <img src="./adacolau.png" alt="" class="avatar">
+                
+                </div>
+
         
-            <div class="offcanvas-body">
-               <p>Correo electrónico de contacto:</p>
-                <p>SSG3017@gmail.com</p>
-            </div>
-          </div>
-        
-        <p>Soy Daniel Reboredo Díaz, estudiante de 2.º de Bachillerato en Salesianos Coruña. Me considero una persona responsable, organizada y comprometida con mis objetivos. Tengo ganas de seguir aprendiendo, adquirir nuevas experiencias y desarrollar mis habilidades tanto a nivel personal como profesional. Destaco por mi capacidad de resiliencia, mi disposición para trabajar en equipo y mi interés por afrontar nuevos retos.</p>
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="./Ejercicio01/Tim Berners.jpg" class="card-img-top" alt="...">
+                        <img src="./Ejercicio01/timberners.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Ejercicio01</h5>
+                            <h2 class="card-title">Ejercicio01</h2>
                             <p class="card-text">Primer html que he hecho</p>
                             <a href="./Ejercicio01/index.html" class="btn btn-primary">Ver Ejercicio 1</a>
                         </div>
@@ -58,7 +78,7 @@
                     <div class="card h-100">
                         <img src="./Practica01/Imágenes/II.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Práctica01</h5>
+                            <h2 class="card-title">Práctica01</h2>
                             <p class="card-text">Un comparador de carreras</p>
                             <a href="./Practica01/index.html" class="btn btn-primary">Ver Práctica 1</a>
                         </div>
